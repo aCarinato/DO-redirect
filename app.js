@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('<h1>Proviamo il redirect!</h1>');
+  res.send('<h1>Proviamo il redirect! Chi lo sa</h1>');
 });
 
 app.get('/prova', (req, res) => {
