@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('<h1>Proviamo il redirect! Chi lo sa</h1>');
+  res.send('<h1>Proviamo il redirect! Chi lo sa... Peró cosí no se pol</h1>');
 });
 
 app.get('/prova', (req, res) => {
@@ -11,5 +11,5 @@ app.get('/prova', (req, res) => {
 });
 
 app.listen(8000, () => {
-  console.log('app listening on port 5000');
+  console.log('app listening on port 8000');
 });
